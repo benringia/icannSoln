@@ -6,6 +6,7 @@ Fonts
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 body {
   font-family: FreightSansLF Pro,Noto Sans JP,Noto Sans KR,Helvetica Neue,Helvetica,Arial,Lucida Grande,Segoe UI,Tahoma,-apple-system,Roboto,sans-serif;
+  overflow-x: hidden;
 }
 
 /*
@@ -467,12 +468,12 @@ h1 {
 	pointer-events: none;
 }
 
-.active,
+.active1,
 .accordion:hover {
   background-color: #000;
   color: #fff !important;
 }
-.accordion.active::after {
+.accordion.active1::after {
   content: '\2212';
 	color: #fff;
 	font-weight: bold;
@@ -492,7 +493,7 @@ h1 {
 }
 
 
-.active:after {
+.active1:after {
 	content: "\2212";
 }
 
@@ -611,8 +612,9 @@ h1 {
   -webkit-box-flex:  0;
       -ms-flex:  0 0 24%;
           flex:  0 0 24%;
-  max-width: 24%;
+  max-width: 100%;
   background: #000;
+  overflow: hidden;
   /* border: 10px solid #fff; */
   border-radius: 7px;
   -webkit-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.3);

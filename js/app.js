@@ -18,7 +18,7 @@ closeBtn.addEventListener("click", function () {
 const initAccord = document.querySelectorAll('.accordion');
 for (let i = 0; i < initAccord.length; i++) {
 	initAccord[i].addEventListener('click', function() {
-		this.classList.toggle('active');
+		this.classList.toggle('active1');
 		const child = this.nextElementSibling;
 		child.style.maxHeight ? (child.style.maxHeight = null) : (child.style.maxHeight = child.scrollHeight + 'px');
 	});
