@@ -17,6 +17,12 @@ $(document).ready(function() {
             },
             768: {
                 items: 4
+            },
+            1250: {
+                items: 5
+            },
+            2000: {
+                items: 6
             }
         }
     })
