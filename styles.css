@@ -327,8 +327,6 @@ Sidebar
   display: grid;
   grid-template-rows: auto 1fr auto;
   row-gap: 1rem;
-  -webkit-box-shadow: var(--clr-red-dark);
-          box-shadow: var(--clr-red-dark);
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -337,6 +335,9 @@ Sidebar
           transform: translate(-100%);
   overflow-y: auto;
   z-index: 99;
+  box-shadow:   0 2px 2px 0 rgba(0,0,0,0.14),
+0 3px 1px -2px rgba(0,0,0,0.12),
+ 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 .show-sidebar {
   -webkit-transform: translate(0);
@@ -390,7 +391,7 @@ Sidebar
   line-height: 45px;
 }
 .sub-title {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 
@@ -827,4 +828,41 @@ box-shadow:   0 2px 2px 0 rgba(0,0,0,0.14),
 }
 .card03 a {
   color: #49a6e9;
+}
+
+/*====================================
+  footer
+===================*/
+footer {
+  background-color: #49a6e9;
+}
+
+.copyright {
+  display: flex;
+}
+.copyright-items {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.flex {
+  display: flex;
+}
+.list01 {
+  padding: 12px;
+}
+
+.list01 li{
+  color: #fff;
+  font-size: 12px;
+  padding: 0 10px;
+}
+.list01 a {
+  color: #fff;
+}
+.copyright-items p {
+  padding: 12px 10px;
+  color:#fff;
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: right;
 }
