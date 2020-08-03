@@ -200,7 +200,7 @@ Sidebar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: #49a6e9;
+  color: #26a69a;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -774,6 +774,17 @@ h1 {
 .title02-cont {
   background: url(./images/island-bg.jpg) center/cover no-repeat;
   margin-bottom: 60px;
+}
+
+.title03 {
+  padding-bottom: 13px;
+  border-bottom: 1px solid #26a69a;
+  font-size: 20px;
+}
+.title03-icon {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #78B657;
 }
 /*====================================
   card03
