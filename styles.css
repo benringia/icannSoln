@@ -72,7 +72,9 @@ Global Styles
           box-sizing: border-box;
 }
 body {
-  font-family: var(--ff-secondary);
+  font-family: sofia-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -117,7 +119,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: #333
+  color: #707070;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -384,6 +386,7 @@ Sidebar
   src: local('Beyond The Mountains'), url('./fonts/beyond_the_mountains.woff') format('woff');
   }
 
+
 .page-title {
   text-align: center;
   font-family: 'Beyond The Mountains';
@@ -440,7 +443,7 @@ header {
   position: relative;
   display: grid;
   place-items: center;
-  background: rgba(0,0,0,0.4);
+  background: rgba(22, 34, 43,0.6);
 }
 .video-container {
   position: absolute;
@@ -691,6 +694,9 @@ h1 {
   flex: 0 0 48%;
   max-width: 48%;
 }
+.column {
+  flex-direction: column;
+}
 @media (max-width: 768px) {
   .card02 {
     flex: 0 0 100%;
@@ -707,18 +713,73 @@ h1 {
 }
 .rounded-container {
   max-width: 250px;
-  border-radius: 50%;
-  box-shadow: 2px 1px 4px 2px rgba(0,0,0,0.6);
+  /* box-shadow: 2px 1px 4px 2px rgba(0,0,0,0.6); */
   background: #000;
   position: relative;
+}
+.landscape {
+  max-width: 100%;
+  max-height: 150px;
+}
+.translate01 {
+  transform: translateY(25px) translateX(-29px);
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+.translate01:hover {
+  transform: translateY(25px) translateX(0px);
+}
+.translate02 {
+  transform: translateY(48px) translateX(-50px);
+  transition: all 0.5s ease-in-out;
+}
+.translate02:hover {
+  transform: translateY(48px) translateX(-30px);
+}
+.translate03 {
+  transform: translateY(-100px);
+}
 
+.width85 {
+  width: 85%;
+  transform: translateX(17.3%);
+  transition: all 0.3s ease-in-out;
+}
+.width85:hover {
+  transform: translateY(-50px) translateX(81px);
+}
+.width93 {
+  width: 93%;
+  transform: translateX(7.3%) translateY(-50px);
+  transition: all 0.3s ease-in-out;
+}
+.width93:hover {
+  transform: translateX(37px) translateY(-100px);
+}
+.height150 {
+  height: 150px;
+  object-fit: cover;
+}
+.height350 {
+  height: 350px;
+  object-fit: cover;
+  z-index: 3;
+}
+.height300 {
+  height: 300px;
+  object-fit: cover;
+  z-index: 2;
+}
+.height250 {
+  height: 250px;
+  object-fit: cover;
+  z-index: 1;
 }
 .enlarged {
   transform: scale(1.4);
 }
 .rounded-container img {
   width: 100%;
-  border-radius: 50%;
 }
 
 .card02-img {
@@ -780,6 +841,8 @@ h1 {
   padding-bottom: 13px;
   border-bottom: 1px solid #26a69a;
   font-size: 20px;
+  color: #343434;
+  letter-spacing: 2px;
 }
 .title03-icon {
   margin-right: 10px;
