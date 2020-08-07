@@ -7,7 +7,7 @@ Fonts
 body {
   font-family: FreightSansLF Pro,Noto Sans JP,Noto Sans KR,Helvetica Neue,Helvetica,Arial,Lucida Grande,Segoe UI,Tahoma,-apple-system,Roboto,sans-serif;
   overflow-x: hidden;
-  background: url(images/bb.png) !important;
+  background: url(images/bb.png) center/contain no-repeat!important;
 }
 
 /*
@@ -610,12 +610,11 @@ h1 {
   main sections
 =================================*/
 .section-title {
-  color: #292929;
-  font-family: FreightSansLF Pro,Noto Sans JP,Noto Sans KR,Helvetica Neue,Helvetica,Arial,Lucida Grande,Segoe UI,Tahoma,-apple-system,Roboto,sans-serif;
-  font-weight: 700;
-  letter-spacing: 0em;
+  color: #343434;
+  letter-spacing: 3px;
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .section-title.mar40 {
   margin-bottom: 40px;
@@ -723,7 +722,7 @@ h1 {
 }
 .rounded-container {
   max-width: 250px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.6);
+  /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.6); */
   background: #000;
   position: relative;
 }
@@ -867,8 +866,8 @@ h1 {
 }
 .title03-icon {
   margin-right: 10px;
-  font-size: 25px;
-  color: #78B657;
+  font-size: 20px;
+  color: #707070;
 }
 /*====================================
   card03
@@ -882,9 +881,9 @@ h1 {
   flex: 0 0 24%;
   max-width: 24%;
   background-color: #fff;
-box-shadow:   0 2px 2px 0 rgba(0,0,0,0.14),
+/* box-shadow:   0 2px 2px 0 rgba(0,0,0,0.14),
 0 3px 1px -2px rgba(0,0,0,0.12),
- 0 1px 5px 0 rgba(0,0,0,0.2);
+ 0 1px 5px 0 rgba(0,0,0,0.2); */
  border-radius: 10px;
  transition: all 0.25s ease-in-out;
 }
@@ -929,7 +928,7 @@ box-shadow:   0 2px 2px 0 rgba(0,0,0,0.14),
   footer
 ===================*/
 footer {
-  background-color: #49a6e9;
+  background: url(images/footer.png) no-repeat center/cover;
 }
 
 .copyright {
@@ -938,6 +937,10 @@ footer {
 .copyright-items {
   flex: 0 0 50%;
   max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .flex {
   display: flex;
@@ -948,21 +951,24 @@ footer {
   justify-content: center;
 }
 .list01 {
-  padding: 12px;
+  padding: 40px;
 }
 
 .list01 li{
-  color: #fff;
-  font-size: 12px;
+  color: #333333;
+  font-size: 14px;
   padding: 0 10px;
 }
 .list01 a {
-  color: #fff;
+  color: #333333;
 }
 .copyright-items p {
   padding: 12px 10px;
-  color:#fff;
-  font-size: 12px;
+  color:#333333;
+  font-size: 14px;
   margin-bottom: 0;
   text-align: right;
+}
+.copyright-ttl {
+  font-size: 18px;
 }
