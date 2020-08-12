@@ -277,11 +277,7 @@ Sidebar
 .close-btn:hover {
   color: var(--clr-red-light);
 }
-.logo {
-  /* -ms-grid-column-align: center;
-      justify-self: center; */
-  height: 40px;
-}
+
 
 .links a {
   display: block;
