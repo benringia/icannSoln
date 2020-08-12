@@ -941,14 +941,21 @@ box-shadow:   0 2px 2px 0 rgba(0,0,0,0.14),
  border-radius: 10px;
  transition: all 0.25s ease-in-out;
 }
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 992px) {
   .card-container02 {
     flex-wrap: wrap;
+    justify-content: space-between;
   }
+  .card03 {
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 552px) {
   .card03 {
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 552px) {
