@@ -13,6 +13,11 @@
   -webkit-tap-highlight-color: transparent;
   transform: translateY(-50%);
 }
+@media (max-width: 500px) {
+  .owl-nav {
+    display: none;
+  }
+}
 
 .owl-nav [class*='owl-'] {
   position: absolute;
