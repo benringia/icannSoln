@@ -212,7 +212,7 @@ Sidebar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: #26a69a;
+  color: #fff;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -231,6 +231,9 @@ Sidebar
   -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
           transform: scale(1.05);
+}
+.sidebar-toggle.act {
+color: #000;
 }
 @-webkit-keyframes bounce {
   0% {

@@ -64,3 +64,14 @@ scrollLinks.forEach((link) => {
   });
 });
 // calculate heights
+
+window.addEventListener('scroll', function() {
+  const scrollHeight = window.pageYOffset;
+  const hamburgerBtn = document.querySelector(".sidebar-toggle")
+
+  if (scrollHeight > 500) {
+    hamburgerBtn.classList.add('act');
+  } else {
+    hamburgerBtn.classList.remove('act');
+  }
+})
