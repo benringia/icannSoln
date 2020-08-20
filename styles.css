@@ -317,36 +317,31 @@ color: #000;
   padding-bottom: 2rem;
 }
 .social-icons li {
-  border: 1px solid #E9EAEB;
-    border-radius: 50%;
+  /* border: 1px solid #E9EAEB; */
+    /* border-radius: 50%; */
     width: 35px;
     height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .social-icons li:not(:last-of-type) {
   margin-right: 10px;
 }
 .social-icons a {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  border-radius: 50%;
   margin: 0 0.5rem;
+  border: 1px solid #E9EAEB;
+  padding: 3px 8px;
   color: #E9EAEB;
   -webkit-transition: var(--transition);
   -o-transition: var(--transition);
   transition: var(--transition);
 }
-/* .social-icons a:hover {
-  transform: rotate(30deg);
-  color: skyblue;
-} */
-.blue:hover {
-  transform: rotate(30deg);
-  color: skyblue;
-}
-.red:hover {
-  transform: rotate(30deg);
-  color: red;
+.social-icons a:hover {
+  transform: scale(1.07) rotate(20deg);
 }
 
 .sidebar {
