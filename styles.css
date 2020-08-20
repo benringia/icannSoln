@@ -336,8 +336,17 @@ color: #000;
   -o-transition: var(--transition);
   transition: var(--transition);
 }
-.social-icons a:hover {
-  color: var(--clr-primary-1);
+/* .social-icons a:hover {
+  transform: rotate(30deg);
+  color: skyblue;
+} */
+.blue:hover {
+  transform: rotate(30deg);
+  color: skyblue;
+}
+.red:hover {
+  transform: rotate(30deg);
+  color: red;
 }
 
 .sidebar {
