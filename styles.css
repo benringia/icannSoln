@@ -595,12 +595,13 @@ h1 {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  max-width: 370px;
+  max-width: 300px;
 }
 
 .l-container.is-fluid {
   max-width: 100% !important;
 }
+
 
 @media (min-width: 410px) {
   .l-container {
