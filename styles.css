@@ -475,7 +475,7 @@ header {
 }
 @media (max-width: 768px) {
   header {
-    min-height: 50vh;
+    min-height: 70vh;
   }
 }
 .video-container {
@@ -591,6 +591,7 @@ h1 {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  max-width: 370px;
 }
 
 .l-container.is-fluid {
@@ -871,6 +872,11 @@ h1 {
 .card02-details p {
   color: #fff;
   font-size: 16px;
+}
+@media screen and (max-width: 552px) {
+  .card02-details p {
+    font-size: 14px;
+  }
 }
 .card02-details h4 {
   color: #fff;
