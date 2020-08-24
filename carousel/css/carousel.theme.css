@@ -101,7 +101,6 @@
   background: #e4e4e4;
   display: block;
   border-radius: 50%;
-  -webkit-backface-visibility: visible;
   transition: opacity 200ms ease;
 }
 
