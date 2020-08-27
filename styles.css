@@ -673,6 +673,11 @@ h1 {
 .card-container.mar60 {
   margin-bottom: 60px;
 }
+@media screen and (max-width: 768px) {
+  .card-container.mar60 {
+    margin-bottom: 30px;
+  }
+}
 
 .card {
   -webkit-box-flex:  0;
